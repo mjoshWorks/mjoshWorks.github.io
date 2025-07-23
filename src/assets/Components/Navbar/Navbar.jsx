@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="links" smooth={true} duration={500} offset={-70} onClick={closeMenu}>
+          <Link to="sociallinks" smooth={true} duration={500} offset={-70} onClick={closeMenu}>
             Links
           </Link>
         </li>
