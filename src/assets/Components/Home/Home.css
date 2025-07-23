@@ -1,0 +1,130 @@
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem;
+  min-height: 100vh;
+  gap: 4rem;
+  background-image: url('/assets/img/bgimage.png'); /* Update this path and extension as needed */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker overlay for readability */
+  z-index: 1;
+}
+
+.home-inner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+  gap: 4rem;
+}
+
+.home-content {
+  max-width: 600px;
+  flex: 1;
+}
+
+.home-content h1,
+.home-content h2,
+.home-content p {
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.home-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.home-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-content p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: #ff009f;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  background-color: #ff009f;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f063c1;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.home-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 25px rgba(240, 99, 193, 0.3);
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .home-inner {
+    flex-direction: column;
+  }
+
+  .home-image {
+    margin-top: 2rem;
+  }
+
+  .home-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .home-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,16 @@
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0 2rem;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #ff009f;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #f063c1;
+}
