@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/mjoshWorks/mjoshWorks.github.io",
+  "homepage": "https://mjoshworks.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
