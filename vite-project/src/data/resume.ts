@@ -21,17 +21,17 @@ export const profile = {
   tagline:
     'I keep work accurate, customers happy, and teams moving, from data entry to high-volume customer care.',
   location: 'Cagayan de Oro City, Philippines',
-  photo: '/profile.jpg',
+  photo: '/profile.jpg.jpg',
   cv: '/Maglangit-CV.pdf',
 };
 
 export const about = {
   summary:
-    'I am a BS Information Technology graduate from the University of Science and Technology of Southern Philippines. My experience covers back-office support, high-volume customer care, and data annotation quality review. I take pride in accurate work, clear communication, and helping my team hit its goals.',
+    'I have completed four years of coursework toward a BS in Information Technology at the University of Science and Technology of Southern Philippines. My experience covers back-office support, high-volume customer care, and data annotation quality review. I take pride in accurate work, clear communication, and helping my team hit its goals.',
   highlights: [
     { value: '4+', label: 'years in data annotation & QA' },
     { value: '3', label: 'professional roles' },
-    { value: 'BSIT', label: 'USTP graduate & city scholar' },
+    { value: 'BSIT', label: 'USTP Academic Scholar & City Scholar' },
   ],
 };
 
